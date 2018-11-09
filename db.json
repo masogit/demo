@@ -1,14 +1,129 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "users": [
+    {
+      "id": 1,
+      "name": "张三",
+      "roles": [
+        "admin"
+      ]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "metadata": [
+    {
+      "id": 1,
+      "assetCategories": [
+        "负债",
+        "资产"
+      ],
+      "assetTypes": [
+        "光地(住宅)",
+        "光地(商用)",
+        "光地(工业)",
+        "工业房地产",
+        "住宅/商业",
+        "办公楼",
+        "其他房产",
+        "在建工程",
+        "机器设备",
+        "林权",
+        "大宗物资",
+        "船舶",
+        "海域使用权",
+        "其他"
+      ],
+      "itemTypes": [
+        "机器设备"
+      ],
+      "packageTypes": [
+        "委托清收入",
+        "债权买断"
+      ],
+      "assetStates": [
+        "未诉",
+        "审理中",
+        "已判决",
+        "执行中",
+        "执行本终"
+      ],
+      "guaranteeTypes": [
+        "抵押",
+        "质保",
+        "保证"
+      ]
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "homepages": [
+    {
+      "id": 1,
+      "version": "v1",
+      "sites": [
+        {
+          "name": "baidu",
+          "linke": "www.baidu.com",
+          "imageId": "xxxxx"
+        }
+      ],
+      "recommends": [],
+      "onsales": [],
+      "contact": "",
+      "solgan": ""
+    }
+  ],
+  "assets": [
+    {
+      "id": 1,
+      "category": "负债",
+      "title": "资产标题",
+      "price": "评估价格",
+      "type": "光地(工业)",
+      "guarantee": "抵押",
+      "court": "管辖法院",
+      "ownerBank": "原债权银行",
+      "address": "所在地址",
+      "currentState": "司法追偿状态",
+      "visible": true,
+      "images": [],
+      "warrantor": "债权保证人",
+      "advantage": "资产亮点"
+    },
+    {
+      "id": 2,
+      "category": "资产",
+      "title": "资产标题",
+      "price": "评估价格",
+      "type": "光地(工业)",
+      "guarantee": "抵押",
+      "court": "管辖法院",
+      "ownerBank": "原债权银行",
+      "address": "所在地址",
+      "currentState": "司法追偿状态",
+      "visible": true,
+      "images": [],
+      "warrantor": "债权保证人",
+      "advantage": "资产亮点"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "assetId": 1,
+      "type": "机器设备",
+      "address": "浙江省湖州市长兴县长兴小浦镇高地村",
+      "decription": "绍兴市解放北路81号208、209、226室；绍兴市解放北路51号、53号、55号、57号、59号、61号、63号；绍兴市解放北路81号7、8、9、10、11室等15处房屋",
+      "earthArea": 1111,
+      "buildingArea": 123123,
+      "images": []
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "title": "债权包标题",
+      "capital": "本金",
+      "address": "浙江省湖州市长兴县长兴小浦镇高地村",
+      "ownerBack": "原债权银行",
+      "type": "委托清收入"
+    }
+  ],
+  "images": []
 }
